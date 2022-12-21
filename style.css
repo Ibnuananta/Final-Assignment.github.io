@@ -1,9 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600&family=Quicksand:wght@500&display=swap');
 h1 {
-  font-family: "Righteous", cursive;
-  background-color: #00ABB3;
-  color: #EAEAEA;
+  font-family: "Poppins", sans-serif;
+  background-color: #00abb3;
+  color: #eaeaea;
 }
-p{
-    font-family: monospace;
+p {
+  font-family: monospace;
+}
+.jurnal {
+  background-color: #b2b2b2;
+  color: #eaeaea;
+  font-family: 'Poppins', sans-serif;
+  transition-duration: 1s;
+}
+.jurnal:hover {
+  background-color: #888888;
+  box-shadow: #00d0db86 5px 5px, rgba(42, 186, 186, 0.3) 10px 10px,
+    rgba(111, 255, 255, 0.2) 15px 15px
 }
